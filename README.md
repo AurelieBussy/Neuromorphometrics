@@ -39,7 +39,7 @@ Upon inspection, I discovered that the **original** and **extra** Neuromorphomet
 - Extracted the cortical surface
 - Applied surface smoothing
 - Saved to:
-  - `.obj` (for visualization with [Display](https://www.bic.mni.mcgill.ca/ServicesSoftware/Display))
+  - `.obj` (for visualization with [Display](https://www.bic.mni.mcgill.ca/ServicesSoftwareVisualization/HomePage))
   - `.gii` (for MATLAB/Freesurfer compatibility)
 
 ### 4. **Surface Sampling & Cleaning**
