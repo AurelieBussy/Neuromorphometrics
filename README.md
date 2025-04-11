@@ -8,8 +8,15 @@ This repository contains the script `Neuromorphometrics_surface.ipynb`, which I 
 
 - `labels_Neuromorphometrics.nii` — original atlas from `SPM/tpm/`
 - `labels_neuromorphics_extra.nii` — extended atlas with added regions (included in this repo)
-- `diplay_labels_original_vs_extra.png` — visual comparison of anatomical misalignment
-- `Mayavi_left_boundary_plot.png`, `Mayavi_right_boundary_plot.png` — examples of surface edge detection
+- `wm_combined_surface_smoothed.gii` — new surface for **label_Neuromorphometrics.nii** projection results using **MATLAB**
+- `wm_combined_surface_smoothed.obj` — new surface for **label_Neuromorphometrics.nii** projection results using **Python/Display**
+- `wm_combined_extra_surface_smoothed.gii` — new surface for **label_neuromorphics_extra.nii** projection results using **MATLAB**
+- `wm_combined_extra_surface_smoothed.obj` — new surface for **label_neuromorphics_extra.nii** projection results using **Python/Display**
+- `surface_labels_projected_thick2.nii.gz` — 3D cortical labels to project results on **label_neuromorphics_extra.nii** using **MATLAB**
+- `surface_labels_projected_thick2.nii.gz` — 3D cortical labels to project results on **label_neuromorphics_extra.nii** using **MATLAB**
+- `right_labels_smoothed.txt` and `left_labels_smoothed.txt` — txt files containing cortical label vertex-wise corresponding to `wm_right_surface_smoothed.obj` and `wm_left_surface_smoothed.obj`
+- `right_extra_surface_labels.txt` and `left_extra_surface_labels.txt` — txt files containing cortical label vertex-wise corresponding to `wm_right_extra_surface_smoothed.obj` and `wm_left_extra_surface_smoothed.obj`
+
 
 ---
 
